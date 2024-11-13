@@ -1,0 +1,58 @@
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\bin\Debug\UchebPRAOA.exe.config
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\bin\Debug\UchebPRAOA.exe
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\bin\Debug\UchebPRAOA.pdb
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\bin\Debug\EntityFramework.dll
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\bin\Debug\EntityFramework.xml
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA.csproj.AssemblyReference.cache
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\MainWindow.g.cs
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\App.g.cs
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA_Content.g.cs
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA_MarkupCompile.cache
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA_MarkupCompile.lref
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\MainWindow.baml
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA.g.resources
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA.Properties.Resources.resources
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA.csproj.GenerateResource.cache
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA.csproj.CoreCompileInputs.cache
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA.csproj.CopyComplete
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA.exe
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\UchebPRAOA.pdb
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\Pages\ListofRequest.g.cs
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\Pages\ListofRequest.baml
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\Pages\AddRequest.g.cs
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\Pages\Registration.g.cs
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\Pages\AddRequest.baml
+C:\Users\oaparshin-isp-2023\source\repos\UchebPRAOA\UchebPRAOA\obj\Debug\Pages\Registration.baml
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\bin\Debug\UchebPRAOA.exe.config
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\bin\Debug\UchebPRAOA.exe
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\bin\Debug\UchebPRAOA.pdb
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\bin\Debug\EntityFramework.dll
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\bin\Debug\EntityFramework.xml
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA.csproj.AssemblyReference.cache
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\MainWindow.g.cs
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\Pages\AddRequest.g.cs
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\Pages\ListofRequest.g.cs
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\Pages\Registration.g.cs
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\App.g.cs
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA_Content.g.cs
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA_MarkupCompile.cache
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA_MarkupCompile.lref
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\MainWindow.baml
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\Pages\AddRequest.baml
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\Pages\ListofRequest.baml
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\Pages\Registration.baml
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA.g.resources
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA.Properties.Resources.resources
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA.csproj.GenerateResource.cache
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA.csproj.CoreCompileInputs.cache
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA.csproj.CopyComplete
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA.exe
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\UchebPRAOA.pdb
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\Pages\EditRequest.g.cs
+C:\Users\oaparshin-isp-2023\Desktop\Новая папка\ZhumaPracticc-main\UchebPRAOA\obj\Debug\Pages\EditRequest.baml
