@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UchebPracsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="RequestID" />
+    </Key>
+    <Property Name="RequestID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusID" Type="Int32" Nullable="false" />
+    <Property Name="TechTypeID" Type="Int32" Nullable="false" />
+    <Property Name="MasterID" Type="Int32" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="TechModel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CompletionDate" Type="DateTime" Precision="0" />
+    <Property Name="RepairParts" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MasterComment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Cost" Type="Int32" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Request__ClientI__6B24EA82" FromRole="Request" ToRole="Users" />
+    <NavigationProperty Name="Users1" Relationship="Self.FK__Request__MasterI__6A30C649" FromRole="Request" ToRole="Users" />
+    <NavigationProperty Name="Status" Relationship="Self.FK__Request__StatusI__68487DD7" FromRole="Request" ToRole="Status" />
+    <NavigationProperty Name="TechType" Relationship="Self.FK__Request__TechTyp__693CA210" FromRole="Request" ToRole="TechType" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__RoleID__619B8048" FromRole="Roles" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Request" Relationship="Self.FK__Request__StatusI__68487DD7" FromRole="Status" ToRole="Request" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TechType">
+    <Key>
+      <PropertyRef Name="TechTypeID" />
+    </Key>
+    <Property Name="TechTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TechTypeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Request" Relationship="Self.FK__Request__TechTyp__693CA210" FromRole="TechType" ToRole="Request" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <Property Name="FIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserLogin" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserPass" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Request" Relationship="Self.FK__Request__ClientI__6B24EA82" FromRole="Users" ToRole="Request" />
+    <NavigationProperty Name="Request1" Relationship="Self.FK__Request__MasterI__6A30C649" FromRole="Users" ToRole="Request" />
+    <NavigationProperty Name="Roles" Relationship="Self.FK__Users__RoleID__619B8048" FromRole="Users" ToRole="Roles" />
+  </EntityType>
+  <Association Name="FK__Request__ClientI__6B24EA82">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__MasterI__6A30C649">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="MasterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__StatusI__68487DD7">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__TechTyp__693CA210">
+    <End Role="TechType" Type="Self.TechType" Multiplicity="1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TechType">
+        <PropertyRef Name="TechTypeID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="TechTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__RoleID__619B8048">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="UchebPracsEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Request" EntityType="Self.Request" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" />
+    <EntitySet Name="Status" EntityType="Self.Status" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TechType" EntityType="Self.TechType" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__Request__ClientI__6B24EA82" Association="Self.FK__Request__ClientI__6B24EA82">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__MasterI__6A30C649" Association="Self.FK__Request__MasterI__6A30C649">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__StatusI__68487DD7" Association="Self.FK__Request__StatusI__68487DD7">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__TechTyp__693CA210" Association="Self.FK__Request__TechTyp__693CA210">
+      <End Role="TechType" EntitySet="TechType" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__RoleID__619B8048" Association="Self.FK__Users__RoleID__619B8048">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
